@@ -526,7 +526,7 @@ sda429-bg-wtp-overlay.dtbo-base := sda429-bg-wtp.dtb
 sdm429-bg-wdp-overlay.dtbo-base := sdm429-bg-wdp.dtb
 sda429-bg-wdp-overlay.dtbo-base := sda429-bg-wdp.dtb
 else
-dtb-$(CONFIG_ARCH_MSM8953) += msm8953-cdp.dtb \
+#dtb-$(CONFIG_ARCH_MSM8953) += msm8953-cdp.dtb \
 	msm8953-mtp.dtb \
 	msm8953-ext-codec-mtp.dtb \
 	msm8953-qrd-sku3.dtb \
@@ -560,7 +560,7 @@ dtb-$(CONFIG_ARCH_MSM8953) += msm8953-cdp.dtb \
 	msm8953-pmi632-cdp-s2.dtb \
 	apq8053-batcam.dtb
 
-dtb-$(CONFIG_ARCH_MSM8937) += msm8937-pmi8950-mtp.dtb \
+#dtb-$(CONFIG_ARCH_MSM8937) += msm8937-pmi8950-mtp.dtb \
 	msm8937-interposer-sdm439-cdp.dtb \
 	msm8937-interposer-sdm439-mtp.dtb \
 	msm8937-interposer-sdm439-qrd.dtb \
@@ -575,7 +575,7 @@ dtb-$(CONFIG_ARCH_MSM8940) += msm8940-pmi8937-mtp.dtb \
 	msm8940-pmi8940-mtp.dtb
 endif
 
-dtb-$(CONFIG_ARCH_MSM8917) += msm8917-pmi8950-mtp.dtb \
+#dtb-$(CONFIG_ARCH_MSM8917) += msm8917-pmi8950-mtp.dtb \
 	msm8917-pmi8950-cdp.dtb \
 	msm8917-pmi8950-rcm.dtb \
 	msm8917-pmi8950-ext-codec-cdp.dtb \
@@ -594,12 +594,12 @@ dtb-$(CONFIG_ARCH_MSM8917) += msm8917-pmi8950-mtp.dtb \
 	msm8917-pmi8940-cdp.dtb \
 	msm8917-pmi8940-rcm.dtb
 
-dtb-$(CONFIG_ARCH_QM215) += qm215-qrd.dtb \
-	qcm2150-qrd.dtb
-dtb-$(CONFIG_ARCH_QM215) += qm215-qrd-smb1360.dtb
+#dtb-$(CONFIG_ARCH_QM215) += qm215-qrd.dtb
 
 dtb-$(CONFIG_ARCH_MSM8909) += msm8909-pm8916-mtp.dtb \
 	sdw3100-msm8909w-wtp.dtb \
+
+#dtb-$(CONFIG_ARCH_MSM8909) += sdw3100-msm8909w-wtp.dtb \
 	sdw3100-apq8009w-wtp.dtb \
 	sdw3100-apq8009w-alpha.dtb \
 	apq8009-mtp-wcd9326-refboard.dtb \
@@ -615,7 +615,7 @@ dtb-$(CONFIG_ARCH_MSM8909) += msm8909-pm8916-mtp.dtb \
 	msm8909-mtp.dtb \
 	msm8909-1gb-mtp.dtb
 
-dtb-$(CONFIG_ARCH_SDM450) += sdm450-rcm.dtb \
+#dtb-$(CONFIG_ARCH_SDM450) += sdm450-rcm.dtb \
 	sdm450-cdp.dtb \
 	sdm450-mtp.dtb \
 	sda450-cdp.dtb \
@@ -630,7 +630,7 @@ dtb-$(CONFIG_ARCH_SDM450) += sdm450-rcm.dtb \
 	sda450-pmi632-cdp-s2.dtb \
 	sda450-pmi632-mtp-s3.dtb
 
-dtb-$(CONFIG_ARCH_SDM632) += sdm632-rumi.dtb \
+#dtb-$(CONFIG_ARCH_SDM632) += sdm632-rumi.dtb \
 	sdm632-cdp-s2.dtb \
 	sdm632-ext-codec-cdp-s3.dtb \
 	sdm632-mtp-s3.dtb \
@@ -646,7 +646,7 @@ dtb-$(CONFIG_ARCH_SDM632) += sdm632-rumi.dtb \
 	sdm632-pm8004-qrd-sku4.dtb \
 	sdm632-pm8004-qrd.dtb
 
-dtb-$(CONFIG_ARCH_SDM439) += sdm439-mtp.dtb \
+#dtb-$(CONFIG_ARCH_SDM439) += sdm439-mtp.dtb \
 	sdm439-cdp.dtb \
 	sdm439-qrd.dtb \
 	sda439-mtp.dtb \
@@ -657,7 +657,7 @@ dtb-$(CONFIG_ARCH_SDM439) += sdm439-mtp.dtb \
 	qcm2150-qrd.dtb \
 	qm215-qrd-smb1360.dtb
 
-dtb-$(CONFIG_ARCH_SDM429) += sdm429-mtp.dtb \
+#dtb-$(CONFIG_ARCH_SDM429) += sdm429-mtp.dtb \
 	sdm429-cdp.dtb \
 	sdm429-qrd.dtb \
 	sda429-mtp.dtb \
